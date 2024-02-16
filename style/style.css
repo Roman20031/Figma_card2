@@ -1,3 +1,21 @@
-body{
-    background-color: black;
+
+
+main{
+    position: relative;
 }
+
+.card{
+    display:flex;
+    flex-direction: column;
+    gap: 10 px;
+    padding: 10px;
+    background-color: rgba(red, green, blue, alpha);
+    z-index: 10;
+    border-radius:  17px;
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+}
+
